@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+}
+
+img {
+    width: 100%;
+}
+
+.headerqueen {
+    display: flex;
+    background-color: rgb(10, 10, 70);
+    padding-right: 1em;
+    text-align: center;
+
+
+
+}
+
+.headerqueen img {
+    width: 230px;
+    box-sizing: border-box;
+}
+
+#artistas {
+    font-family: 'Monoton',
+        cursive;
+    color: cornsilk;
+    font-size: 50px;
+    margin-left: 5em;
+
+}
+
+.main {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin: 5em 10em;
+}
+
+.sectionFreddie {
+    background-color: red;
+}
+
+.sectionBrian {
+    background-color: yellow;
+}
+
+.sectionRoger {
+    background-color: green;
+}
+
+.sectionJohn {
+    background-color: blue;
+}
